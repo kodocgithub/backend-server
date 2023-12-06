@@ -16,5 +16,5 @@ COPY . .
 # Expose the port on which your app runs
 EXPOSE 3000
 
-# Define the command to run your app
-CMD ["npm", "start"]
+# Run npm start in the background
+CMD ["npm", "start", "&"]
