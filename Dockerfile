@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Run npm start in the background
-# CMD ["npm", "start", "&"]
+CMD ["npm", "run", "start" ,"&"]
